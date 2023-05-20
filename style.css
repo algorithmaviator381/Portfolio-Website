@@ -15,7 +15,7 @@ body, ul {
     width: fit-content;
     left: 50%;
     transform: translateX(-50%);
-    border-radius: 20px;
+    border-radius: 22px;
   }
   
   nav ul {
@@ -31,12 +31,18 @@ body, ul {
   nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-size: 22px;
     padding: 10px 20px;
   }
   
-  nav ul li a:hover {
-    transition: 1s;
-    background-color: #555;
+  nav ul li:hover {
+    transition: 0.5s;
+    transform: translateY(-33%);
+  }
+
+  nav ul li:not(:hover) {
+    transition: 0.5s;
+    transform: translateY(0);
   }
   
   footer {
