@@ -63,7 +63,7 @@ ul {
 
 .listitem {
   text-align: left;
-  max-width: 36rem;
+  max-width: 55rem;
   padding: 1rem 1rem;
   margin: 8rem auto 6rem;
   border-radius: 11px;
@@ -83,8 +83,6 @@ ul {
   margin-top: 15vw;
 }
 
-
-
 .circle {
   position: fixed;
   margin-left: 66vw;
@@ -93,8 +91,8 @@ ul {
 }
 
 .circle li {
-  height: 44vw;
-  width: 44vw;
+  height: 666px;
+  width: 666px;
   border: 3px solid rgba(255, 255, 255, 0.111);
   list-style-type: none;
   position: absolute;
@@ -277,20 +275,32 @@ ul {
 
 .listitem p {
   padding-left: 22px;
+  font-size: 22px;
 }
 
+.listitem h2{
+  font-size: 33px;
+}
 .listitem a {
-  padding-left: 22px;
+  margin-left: 22px;
 }
 
 .listitem ul li {
   text-align: left;
-  list-style: none;
-  padding-left: 22px;
+  list-style: square;
+  margin-left: 44px;
+  font-size: 22px;
+  padding-top: 6px;
 }
 
 .listitem h2 a {
   text-decoration: none;
+}
+
+.listitem p a {
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
