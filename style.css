@@ -222,7 +222,9 @@ body, ul {
   }
   .container p span.typed-text {
     font-weight: bold;
-    color: #dd7732;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    color: #FFBF00;
   }
   .container p span.cursor {
     display: inline-block;

@@ -1,10 +1,10 @@
 const typedTextSpan = document.querySelector(".typed-text");
 const cursorSpan = document.querySelector(".cursor");
 
-const textArray = ["Software Engineer", "Artist", "Open-source Enhtuisat", "Cinephile"];
+const textArray = ["Software Engineer", "Cinephile", "Artist", "Open-source Enhtuisat"];
 const typingDelay = 100;
-const erasingDelay = 200;
-const newTextDelay = 1000;
+const erasingDelay = 150;
+const newTextDelay = 2000;
 let textArrayIndex = 0;
 let charIndex = 0;
 
@@ -36,6 +36,6 @@ function erase() {
   }
 }
 
-document.addEventListener("DOMContentLoaded", function() { // On DOM Load initiate the effect
+document.addEventListener("DOMContentLoaded", function() {
   if(textArray.length) setTimeout(type, newTextDelay + 250);
 });
