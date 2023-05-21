@@ -1,10 +1,7 @@
-/* style.css */
 body{
   color: #fff;
 }
 
-
-/* STYLES */
 #gradient {
   padding: 0;
   height: 100%;
@@ -28,45 +25,7 @@ body, ul {
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-  
-  /* Style the navigation bar */
-  nav {
-    background-color: #1e1f21;
-    position: fixed;
-    bottom: 3%;
-    width: fit-content;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 22px;
-  } 
-  
-  nav ul {
-    list-style-type: none;
-    text-align: center;
-    padding: 10px 0;
-  }
-  
-  nav ul li {
-    display: inline-block;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1em;
-    padding: 10px 20px;
-  }
-  
-  nav ul li:hover {
-    transition: 0.5s;
-    transform: translateY(-33%);
-  }
 
-  nav ul li:not(:hover) {
-    transition: 0.5s;
-    transform: translateY(0);
-  }
-  
   #homeContainer {
     max-width: 36rem;
     padding: 1rem 1rem;
@@ -104,10 +63,9 @@ body, ul {
   
 
   .pagetitle{
-    font-size: 33px;
+    font-size: 44px;
     text-align: left;
-    margin-left: 30vh;
-    margin-right: 30vh;
+    margin-left: 30vh;  
     margin-top: 15vh;
   }
 
@@ -267,4 +225,59 @@ body, ul {
     padding-left: 15px;
     padding-right: 15px;
     border-radius: 5px;
+  }
+
+  .listitem p{
+    padding-left: 22px;
+  }
+
+  .listitem a{
+    padding-left: 22px;
+  }
+
+  .listitem ul li{
+    text-align: left;
+    list-style: none;
+    padding-left: 22px;
+  }
+
+  .listitem h2 a{
+    text-decoration: none;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .menu {
+    background-color: #1e1f21;
+    border-radius: 22px;
+    position: fixed;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    bottom: 33px;
+    padding: 0;
+  }
+  
+  .menu li {
+    padding: 11px;
+    margin: 0 10px;
+  }
+  
+  .menu li a {
+    text-decoration: none;
+    color: #ffffff;font-size: 18px;
+  }
+
+  .menu li:hover {
+    transition: 0.5s;
+    transform: translateY(-6px);
+  }
+
+  .menu li:not(:hover) {
+    transition: 0.5s;
+    transform: translateY(0);
   }
