@@ -7,11 +7,11 @@ body{
 /* STYLES */
 #gradient {
   padding: 0;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   margin: 0;
   background: linear-gradient(150deg, rgb(118, 165, 184), rgb(37, 220, 153));
-  background-size: 300% 300%;
+  background-size: 700% 700%;
   animation: gradientAnim 5s ease infinite;
 }
 
@@ -20,7 +20,6 @@ body{
    50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
   }
-
 
 /* Reset default margin and padding */
 body, ul {
@@ -68,14 +67,9 @@ body, ul {
     transform: translateY(0);
   }
   
-
-  
   #homeContainer {
-    position: absolute;
     border-radius: 11px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 22vh;
     text-align: left;
     background-color: rgba(58, 58, 58, 0.179);
     padding: 33px;
@@ -97,4 +91,18 @@ body, ul {
   #homeContainer p {
     font-size: 18px;
     color: #ffffff;
+  }
+
+  .listitem{
+    text-align: left;
+    margin-left: 30vh;
+    margin-right: 30vh;
+    margin-top: 15vh;
+  }
+
+  .pagetitle{
+    text-align: left;
+    margin-left: 30vh;
+    margin-right: 30vh;
+    margin-top: 15vh;
   }
