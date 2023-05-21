@@ -101,7 +101,14 @@ body, ul {
     border-radius: 11px;
   }
 
+  .listitem a{
+    font-size: 33px;
+    color: #fff;
+    padding-right: 20px;
+  }
+
   .pagetitle{
+    font-size: 33px;
     text-align: left;
     margin-left: 30vh;
     margin-right: 30vh;
