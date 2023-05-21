@@ -10,7 +10,7 @@ body{
   height: 100%;
   width: 100%;
   margin: 0;
-  background: linear-gradient(150deg, rgb(141, 194, 215), rgb(37, 220, 153));
+  background: linear-gradient(150deg, rgb(48, 153, 194), rgb(17, 215, 143));
   background-size: 700% 700%;
   animation: gradientAnim 5s ease infinite;
 }
@@ -72,7 +72,7 @@ body, ul {
     padding: 1rem 1rem;
     margin: 8rem auto 6rem;
     text-align: left;
-    border-radius: 9px;
+    border-radius: 11px;
     background-color: rgba(58, 58, 58, 0.179);
     padding: 33px;
   }
@@ -81,11 +81,6 @@ body, ul {
     font-size: 44px;
     left: 0;
     font-weight: bold;
-  }
-  
-  #homeContainer h3 {
-    font-size: 22px;
-    color: #cfcfcf;
   }
   
   #homeContainer p {
@@ -106,6 +101,7 @@ body, ul {
     color: #fff;
     padding-right: 20px;
   }
+  
 
   .pagetitle{
     font-size: 33px;
@@ -123,8 +119,8 @@ body, ul {
     margin-top: 3vh;
   }
   .circle li{
-    height: 39vw;
-    width: 39vw;
+    height: 44vw;
+    width: 44vw;
     border: 3px solid rgba(255, 255, 255, 0.222);
     list-style-type: none;
     position: absolute;
@@ -248,4 +244,27 @@ body, ul {
     50% { background-color: transparent; }
     99% { background-color: transparent; }
     100%  { background-color: #ccc; }
+  }
+
+  .note_item{
+    display: flex;
+    padding: 10px;
+  }
+
+  .note_item h3{
+    margin: 11px;
+    margin-left: 22px;
+  }
+
+  .note_item a{
+    text-decoration: none;
+    font-size: 22px;
+  }
+
+  .note_item_month{
+    background-color: #ff00f268;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
   }
