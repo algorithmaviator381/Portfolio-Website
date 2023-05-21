@@ -30,7 +30,7 @@ body, ul {
   }
   
   /* Style the navigation bar */
-  header {
+  nav {
     background-color: #1e1f21;
     position: fixed;
     bottom: 3%;
@@ -96,9 +96,10 @@ body, ul {
 
   .listitem{
     text-align: left;
-    margin-left: 30vh;
-    margin-right: 30vh;
-    margin-top: 15vh;
+    max-width: 36rem;
+    padding: 1rem 1rem;
+    margin: 8rem auto 6rem;
+    border-radius: 11px;
   }
 
   .pagetitle{
@@ -182,4 +183,11 @@ body, ul {
       -webkit-transform: rotate(30deg);
       border-top-left-radius: 50%;
     }
+  }
+
+  .social_links a{
+
+    text-decoration: none;
+    color: white;
+    size: unset;
   }
